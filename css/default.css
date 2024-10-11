@@ -7,9 +7,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:12pt;
+    background-color: #ccc;
 }
 header {
-    border-bottom: #ccc solid 1px;
+    border-bottom: #a7c426 solid 1px;
     overflow: auto;
     margin-bottom: 20px;
 }
@@ -52,5 +53,17 @@ main h2 {
 footer {
     margin-top: 30px;
     padding-top: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #a7c426;
+}
+
+
+table td a {
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+td a:hover {
+    color: #a7c426;
+
 }
